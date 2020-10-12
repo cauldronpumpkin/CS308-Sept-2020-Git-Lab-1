@@ -32,7 +32,7 @@ int main(int argc, char* argv[]) {
 	{
 		input = -input;
 		printf("Sqrt of %d is %fi\n",input,sqrt(input));
-		printf("End of program. Exiting.\n");
+		printf("End of program. Eiting.\n");
 	}
 	else
 	{
