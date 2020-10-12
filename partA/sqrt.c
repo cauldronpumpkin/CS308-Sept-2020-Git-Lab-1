@@ -11,7 +11,7 @@ positive number. */
 int main(int argc, char* argv[]) {
 	
 	if (argc != 2) {
-		printf("NEGSUPPORT:Usage: sqrt input\n\n");
+		printf("DEBUG:Usage: sqrt input\n\n");
 		exit(-1);
 	}
 
@@ -21,8 +21,8 @@ int main(int argc, char* argv[]) {
     {
 		if ((i == 0 && !isdigit(argv[1][i]) && argv[1][i] != '-') || (i != 0 && !isdigit(argv[1][i])))
         {
-            printf ("NEGSUPPORT:Passed argument is not a number\n");
-            printf("NEGSUPPORT:End of program. Exiting.\n");
+            printf ("DEBUG:Passed argument is not a number\n");
+            printf("DEBUG:End of program. Exiting.\n");
             exit(1);
         }
     }
@@ -31,13 +31,13 @@ int main(int argc, char* argv[]) {
 	if (input < 0)
 	{
 		input = -input;
-		printf("NEGSUPPORT:Sqrt of %d is %fi\n",input,sqrt(input));
-		printf("NEGSUPPORT:End of program. Eiting.\n");
+		printf("DEBUG:Sqrt of %d is %fi\n",input,sqrt(input));
+		printf("DEBUG:End of program. Eiting.\n");
 	}
 	else
 	{
-		printf("NEGSUPPORT:Sqrt of %d is %f\n",input,sqrt(input));
-		printf("NEGSUPPORT:End of program. Exiting.\n");
+		printf("DEBUG:Sqrt of %d is %f\n",input,sqrt(input));
+		printf("DEBUG:End of program. Exiting.\n");
 	}
 
 	return(0);
