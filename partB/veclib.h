@@ -14,6 +14,6 @@ void diff(vector vec_a, vector vec_b, vector *vec_c);
 
 void dotprod(vector vec_a, vector vec_b, vector *vec_c);
 
-void angle (vector vec_a, vector vec_b);
+float angle(vector vec_a, vector vec_b);
 
 #endif
