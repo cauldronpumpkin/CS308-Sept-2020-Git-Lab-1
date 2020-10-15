@@ -13,7 +13,7 @@
 
 ## Compliation
 ```
- gcc vecmain.c vecadd.c (all other files that have been implemented)
+ gcc vec*.c -lm
  ./a.out
 ```
 
