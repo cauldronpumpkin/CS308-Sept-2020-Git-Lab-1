@@ -11,7 +11,7 @@
   3) Saatvik Chugh (b18084) - https://github.com/op-guy/CS308-Sept-2020-Git-Lab-1
   4) Anam Siddiqui (b18046)
 
-## Compliation
+## Compilation
 ```
  gcc vec*.c -lm
  ./a.out
