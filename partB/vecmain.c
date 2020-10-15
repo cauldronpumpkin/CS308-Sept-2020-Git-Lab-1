@@ -4,7 +4,7 @@
 #define DIM 4
 typedef float vector[DIM];
 
-void print(vector vec_a) 
+void print(vector vec_a)
 {
 	printf("[");
 
@@ -14,10 +14,10 @@ void print(vector vec_a)
 	printf("]");
 }
 
-int main() 
+int main()
 {
 	vector vecA, vecB, vecC;
-	
+
 	printf("Input Vector A\n");
 	for (int i = 0; i < DIM; i++)
 	{
@@ -48,6 +48,6 @@ int main()
 	
 
 	printf("Printing vector angle\n");
-	angle(vecA, vecB);
-	print(vecC);
-} 
+	float ang = angle(vecA, vecB);
+	printf("%f\n", ang);
+}

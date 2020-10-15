@@ -14,6 +14,6 @@ float norm(vector vec_a, vector vec_b);
 
 float dot(vector vec_a, vector vec_b);
 
-void angle(vector vec_a, vector vec_b);
+float angle(vector vec_a, vector vec_b);
 
 #endif
