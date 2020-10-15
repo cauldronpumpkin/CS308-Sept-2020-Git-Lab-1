@@ -10,10 +10,10 @@ void add(vector vec_a, vector vec_b, vector *vec_c);
 
 void eleProd(vector vec_a, vector vec_b, vector *vec_c);
 
-void diff(vector vec_a, vector vec_b, vector *vec_c);
+float norm(vector vec_a, vector vec_b);
 
-void dotprod(vector vec_a, vector vec_b, vector *vec_c);
+float dot(vector vec_a, vector vec_b);
 
-void angle (vector vec_a, vector vec_b);
+void angle(vector vec_a, vector vec_b);
 
 #endif
