@@ -33,18 +33,19 @@ int main()
 	printf("Printing vector sum\n");
 	add(vecA, vecB, &vecC);
 	print(vecC);
+	printf("\n");
 
 	printf("Printing vector product\n");
 	eleProd(vecA, vecB, &vecC);
 	print(vecC);
 
-	printf("Printing vector difference\n");
-	diff(vecA, vecB, &vecC);
-	print(vecC);
+	printf("Printing norm of the difference of the two vectors\n");
+	printf("%f\n",norm(vecA, vecB));
+	
 
 	printf("Printing vector dot product\n");
-	dotprod(vecA, vecB, &vecC);
-	print(vecC);
+	printf("%f\n",dot(vecA, vecB));
+	
 
 	printf("Printing vector angle\n");
 	float ang = angle(vecA, vecB);
