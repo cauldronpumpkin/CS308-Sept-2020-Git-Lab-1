@@ -9,7 +9,7 @@
   1) Kshitiz Jain (b18065) - this repository
   2) Ishan Dahiya (b18059) - https://github.com/blackviking991/CS308-Sept-2020-Git-Lab-1
   3) Saatvik Chugh (b18084) - https://github.com/op-guy/CS308-Sept-2020-Git-Lab-1
-  4) Anam Siddiqui (b18046) - https://github.com/anam0931/CS308-Sept-2020-Git-Lab-1.
+  4) Anam Siddiqui (b18046) - https://github.com/anam0931/CS308-Sept-2020-Git-Lab-1..git
 
 ## Compilation
 ```
